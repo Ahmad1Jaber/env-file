@@ -1,0 +1,23 @@
+HTTPS=true
+#PORT=4500
+
+STRIPE_PUBLIC_KEY=pk_test_51Hi03LC2B4bm5xFLkv0T3VIXRvJQoS8M2iZJwsl1aseMOr68HvVnngYcqLlWaT8UPpY0qvm3XN5XcYaKD2J67sLM00jE4QDZRU
+STRIPE_SECRET_KEY=sk_test_51Hi03LC2B4bm5xFLqIcaGNeVFG2Kl7BayudGxbUdea0vlvXNdzRKFsj2icnuqzKmYj9zbG8nYEbsgZWC7fId9iL200LipxL4z1
+
+
+# Application Port
+JWT_SECRET=aef2rerf65r46a5er4
+
+JWT_EXPIRATION=2h
+#heroku config:set MONGODB_URI="mongodb:mongodb:mongodb://moastaf98:mostafa118150@honey-shard-00-00-yttsl.mongodb.net:27017,honey-shard-00-01-yttsl.mongodb.net:27017,honey-shard-00-02-yttsl.mongodb.net:27017/test?ssl=true&replicaSet=honey-shard-0&authSource=admin&retryWrites=true&w=majority"
+# clint host
+CLIENT_URL = http://localhost:4202
+
+SENDGRID_API_KEY=mtwmn3ZpRZS9wQwnLGg0zQ
+
+# sessionSecret
+sessionSecret=a65drg46d5f4gd65f4g6d5f4gd6f54g
+# Mongo Database
+MONGODB_URI=mongodb://localhost:27017/admin
+#MONGODB_URI=mongodb:mongodb:mongodb://moastaf98:mostafa118150@honey-shard-00-00-yttsl.mongodb.net:27017,honey-shard-00-01-yttsl.mongodb.net:27017,honey-shard-00-02-yttsl.mongodb.net:27017/test?ssl=true&replicaSet=honey-shard-0&authSource=admin&retryWrites=true&w=majority
+#MONGODB_URI=mongodb:mongodb:mongodb://moastaf98:mostafa118150@honey-shard-00-00-yttsl.mongodb.net:27017,honey-shard-00-01-yttsl.mongodb.net:27017,honey-shard-00-02-yttsl.mongodb.net:27017/test?ssl=true&replicaSet=honey-shard-0&authSource=admin&retryWrites=true&w=majority
